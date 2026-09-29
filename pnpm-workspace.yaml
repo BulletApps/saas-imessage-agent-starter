@@ -4,6 +4,7 @@ allowBuilds:
   esbuild: true
 overrides:
   '@workflow/core>nanoid': 5.1.16
+  'eve>undici': 8.10.2
 minimumReleaseAgeExclude:
   - '@posthog/core@1.49.1'
   - '@posthog/mcp@0.12.0'
