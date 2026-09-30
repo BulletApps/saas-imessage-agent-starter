@@ -5,6 +5,7 @@ allowBuilds:
 overrides:
   '@workflow/core>nanoid': 5.1.16
   'eve>undici': 8.10.2
+  'undici@>=7.28.0 <7.29.1': 7.29.1
 minimumReleaseAgeExclude:
   - '@posthog/core@1.49.1'
   - '@posthog/mcp@0.12.0'
