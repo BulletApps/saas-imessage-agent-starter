@@ -17,8 +17,8 @@ importers:
         specifier: ^4.0.88
         version: 4.0.88(zod@4.6.5)
       '@posthog/mcp':
-        specifier: 0.17.0
-        version: 0.17.0(posthog-node@5.53.0(rxjs@7.8.2))
+        specifier: 0.21.0
+        version: 0.21.0(posthog-node@5.54.1(rxjs@7.8.2))
       '@vercel/connect':
         specifier: ^2.3.2
         version: 2.3.2(ai@7.0.109(zod@4.6.5))(eve@0.63.0(ai@7.0.109(zod@4.6.5)))
@@ -35,8 +35,8 @@ importers:
         specifier: ^16.3.5
         version: 16.3.5(@types/node@24.19.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       posthog-node:
-        specifier: ^5.52.5
-        version: 5.53.0(rxjs@7.8.2)
+        specifier: ^5.54.1
+        version: 5.54.1(rxjs@7.8.2)
       react:
         specifier: ^19.3.0
         version: 19.3.0
@@ -710,8 +710,8 @@ packages:
   '@posthog/core@1.55.2':
     resolution: {integrity: sha512-2mYxGbDmTLUs096VbcZqSWo0lrI48/BrX65r54NynxxFq409BOx9w73HxOAtOKZ1vblkdV6/GxQTe7KDcIQidg==}
 
-  '@posthog/mcp@0.17.0':
-    resolution: {integrity: sha512-X6rB7SWp8bEr5P8zrtjoNif9YH9BBPD8XRLq85z/wvFxq1ufH2HMxhlZXp/DvO0ZB0VulRYVw45OzL6rjpxDqg==}
+  '@posthog/mcp@0.21.0':
+    resolution: {integrity: sha512-LhoQm2nUsXzGWgvxL4LHq1p2qC1B/FGoWxcRtMqQmirGQTCCfBNcNhlurX0J92X1iR7ZZuM7cZfkobdnQ43hvg==}
     engines: {node: ^20.20.0 || >=22.22.0}
     peerDependencies:
       '@modelcontextprotocol/sdk': '>=1.26.0'
@@ -2382,8 +2382,8 @@ packages:
     resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-node@5.53.0:
-    resolution: {integrity: sha512-Ug0Jx80uRZzbC0cRbL1n224Q/hJRKfvkHMJXhuXfo2is8tdbsvA8T7cOvPBpgclS5u+qN+Whw0eMIGhiAK7e/Q==}
+  posthog-node@5.54.1:
+    resolution: {integrity: sha512-3+tg86gLKRaR+MjQOdALGUJQDAXHWVyDUJI2h3EJa0c4GWTQu3+R62C3t49dz1T3QWyJq1msq5Qa+B55/ZEHxg==}
     engines: {node: ^20.20.0 || >=22.22.0}
     peerDependencies:
       rxjs: ^7.0.0
@@ -3508,10 +3508,10 @@ snapshots:
     dependencies:
       '@posthog/types': 1.412.4
 
-  '@posthog/mcp@0.17.0(posthog-node@5.53.0(rxjs@7.8.2))':
+  '@posthog/mcp@0.21.0(posthog-node@5.54.1(rxjs@7.8.2))':
     dependencies:
       '@posthog/core': 1.55.2
-      posthog-node: 5.53.0(rxjs@7.8.2)
+      posthog-node: 5.54.1(rxjs@7.8.2)
 
   '@posthog/types@1.412.4': {}
 
@@ -5230,7 +5230,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-node@5.53.0(rxjs@7.8.2):
+  posthog-node@5.54.1(rxjs@7.8.2):
     dependencies:
       '@posthog/core': 1.55.2
     optionalDependencies:
