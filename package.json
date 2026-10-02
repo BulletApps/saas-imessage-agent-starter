@@ -22,10 +22,10 @@
     "check": "pnpm typecheck && pnpm test && pnpm build && pnpm build:agent"
   },
   "dependencies": {
-    "@ai-sdk/gateway": "^4.0.88",
+    "@ai-sdk/gateway": "^4.0.102",
     "@posthog/mcp": "0.21.0",
-    "@vercel/connect": "^2.3.2",
-    "ai": "^7.0.109",
+    "@vercel/connect": "^2.3.5",
+    "ai": "^7.0.126",
     "eve": "^0.63.0",
     "jose": "^6.2.12",
     "next": "^16.3.8",
