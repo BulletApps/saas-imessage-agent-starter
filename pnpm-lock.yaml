@@ -19,8 +19,8 @@ importers:
         specifier: ^4.0.102
         version: 4.0.102(zod@4.6.5)
       '@posthog/mcp':
-        specifier: 0.21.0
-        version: 0.21.0(posthog-node@5.54.1(rxjs@7.8.2))
+        specifier: 0.22.1
+        version: 0.22.1(posthog-node@5.55.0(rxjs@7.8.2))
       '@vercel/connect':
         specifier: ^2.3.5
         version: 2.3.5(ai@7.0.126(zod@4.6.5))(eve@0.63.0(ai@7.0.126(zod@4.6.5)))
@@ -37,8 +37,8 @@ importers:
         specifier: ^16.3.8
         version: 16.3.8(@types/node@24.19.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       posthog-node:
-        specifier: ^5.54.1
-        version: 5.54.1(rxjs@7.8.2)
+        specifier: ^5.55.0
+        version: 5.55.0(rxjs@7.8.2)
       react:
         specifier: ^19.3.0
         version: 19.3.0
@@ -709,11 +709,11 @@ packages:
   '@oxc-project/types@0.150.0':
     resolution: {integrity: sha512-rDS5/31E9HfPl/CIzGrn0DOlvBbXFseQ5URJ9sYMfstbKLD/c6Gm9vmRzRGDdAXyOIL4zmO37lc9RIwYqVruZw==}
 
-  '@posthog/core@1.55.2':
-    resolution: {integrity: sha512-2mYxGbDmTLUs096VbcZqSWo0lrI48/BrX65r54NynxxFq409BOx9w73HxOAtOKZ1vblkdV6/GxQTe7KDcIQidg==}
+  '@posthog/core@1.57.0':
+    resolution: {integrity: sha512-ZpIWCSkog0v4whufAXetagBsVLqE1Zjl5DsHC2squTy8nS/vqZ9W5JvWkJFgHK8hk5x1gdwMoXY7FK2S0YRT1Q==}
 
-  '@posthog/mcp@0.21.0':
-    resolution: {integrity: sha512-LhoQm2nUsXzGWgvxL4LHq1p2qC1B/FGoWxcRtMqQmirGQTCCfBNcNhlurX0J92X1iR7ZZuM7cZfkobdnQ43hvg==}
+  '@posthog/mcp@0.22.1':
+    resolution: {integrity: sha512-Fwxx8vUqgGFbkAQyhBA+dRlh2gvkhXF6jdjB9r8Z1XlP8Vtl6qpb98m2kcW2yzeSETM1c7SRn8P6Ox10IvdhxA==}
     engines: {node: ^20.20.0 || >=22.22.0}
     peerDependencies:
       '@modelcontextprotocol/sdk': '>=1.26.0'
@@ -725,8 +725,8 @@ packages:
       '@modelcontextprotocol/server':
         optional: true
 
-  '@posthog/types@1.412.4':
-    resolution: {integrity: sha512-Q7lV9O9TbLngjOYw1ucm3bS3tn48xb1B4ZQdDy8gv7yfKe99hCTeWYG4xZ36nJM80VxpTF9TriiJt5hngDOkBg==}
+  '@posthog/types@1.415.0':
+    resolution: {integrity: sha512-LGVu1f8r1Hi97yCwXg6PJn7chIwjxosAkkNrh7RIDRtFC5Kc+rkqHqFv73KrjEgCj7Se+0OR5esI4Tg0io6kuA==}
 
   '@rolldown/binding-android-arm-eabi@1.2.9':
     resolution: {integrity: sha512-tNISae1QEf/vkb3xkRcjV5SEdzPE97We5IVaa2Z8jSszQPZ8U60B/YCYpw4QI7VidYsBtKavczXf+DyDs9WGxw==}
@@ -2384,8 +2384,8 @@ packages:
     resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-node@5.54.1:
-    resolution: {integrity: sha512-3+tg86gLKRaR+MjQOdALGUJQDAXHWVyDUJI2h3EJa0c4GWTQu3+R62C3t49dz1T3QWyJq1msq5Qa+B55/ZEHxg==}
+  posthog-node@5.55.0:
+    resolution: {integrity: sha512-8dFtlDTqs0CKGZ8t4mUnk4NdShAgzru3B9D0MfM/NTBzlRyAjctivzWINLtMLRQxYjvgBohxy7RTwiQf4mPycQ==}
     engines: {node: ^20.20.0 || >=22.22.0}
     peerDependencies:
       rxjs: ^7.0.0
@@ -3500,16 +3500,16 @@ snapshots:
 
   '@oxc-project/types@0.150.0': {}
 
-  '@posthog/core@1.55.2':
+  '@posthog/core@1.57.0':
     dependencies:
-      '@posthog/types': 1.412.4
+      '@posthog/types': 1.415.0
 
-  '@posthog/mcp@0.21.0(posthog-node@5.54.1(rxjs@7.8.2))':
+  '@posthog/mcp@0.22.1(posthog-node@5.55.0(rxjs@7.8.2))':
     dependencies:
-      '@posthog/core': 1.55.2
-      posthog-node: 5.54.1(rxjs@7.8.2)
+      '@posthog/core': 1.57.0
+      posthog-node: 5.55.0(rxjs@7.8.2)
 
-  '@posthog/types@1.412.4': {}
+  '@posthog/types@1.415.0': {}
 
   '@rolldown/binding-android-arm-eabi@1.2.9':
     optional: true
@@ -5226,9 +5226,9 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-node@5.54.1(rxjs@7.8.2):
+  posthog-node@5.55.0(rxjs@7.8.2):
     dependencies:
-      '@posthog/core': 1.55.2
+      '@posthog/core': 1.57.0
     optionalDependencies:
       rxjs: 7.8.2
 
