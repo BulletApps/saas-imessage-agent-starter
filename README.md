@@ -135,7 +135,10 @@ pnpm check          # Types, tests, and both production builds
 
 Both builds run from the repository root. Do not set the Eve project's Vercel
 Root Directory to `agent/`; that separates Eve's generated output from the
-shared dependency graph.
+shared dependency graph. The Eve build skips optional sandbox prewarming so the
+starter remains buildable without a local sandbox runtime. If you add tools that
+require a sandbox, explicitly configure and test a supported provider before
+enabling them in production.
 
 ## Project status
 
